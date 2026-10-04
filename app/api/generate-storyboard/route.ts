@@ -81,7 +81,7 @@ MANDATORY VISUAL CONSISTENCY ACROSS ALL 3 SCENES:
     }
 
     const result = await generateText({
-      model: "anthropic/claude-sonnet-4.5",
+      model: "google/gemini-2.0-flash-exp",
       prompt: `Create a storyboard for an 8-second video ad following Google Veo 3.1 best practices.
 
 Product: ${prompt}
